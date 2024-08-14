@@ -1,3 +1,18 @@
 The repository contains the implementations for 'Exploring the Limits of Species Identification via a Convolutional Neural Network in a Complex Forest Scene through Simulated Imaging Spectroscopy.'
 ![image](https://github.com/user-attachments/assets/4b8bcbe1-2cac-4df8-bdb7-ad3147e408a1)
 
+If you use this code cite:
+@Article{rs16030498,
+AUTHOR = {Chaity, Manisha Das and van Aardt, Jan},
+TITLE = {Exploring the Limits of Species Identification via a Convolutional Neural Network in a Complex Forest Scene through Simulated Imaging Spectroscopy},
+JOURNAL = {Remote Sensing},
+VOLUME = {16},
+YEAR = {2024},
+NUMBER = {3},
+ARTICLE-NUMBER = {498},
+URL = {https://www.mdpi.com/2072-4292/16/3/498},
+ISSN = {2072-4292},
+ABSTRACT = {Imaging spectroscopy (hyperspectral sensing) is a proven tool for mapping and monitoring the spatial distribution of vegetation species composition. However, there exists a gap when it comes to the availability of high-resolution spatial and spectral imagery for accurate tree species mapping, particularly in complex forest environments, despite the continuous advancements in operational remote sensing and field sensor technologies. Here, we aim to bridge this gap by enhancing our fundamental understanding of imaging spectrometers via complex simulated environments. We used DIRSIG, a physics-based, first-principles simulation approach to model canopy-level reflectance for 3D plant models and species-level leaf reflectance in a synthetic forest scene. We simulated a realistic scene, based on the same species composition, found at Harvard Forest, MA (USA). Our simulation approach allowed us to better understand the interplay between instrument parameters and landscape characteristics, and facilitated comprehensive traceability of error budgets. To enhance our understanding of the impact of sensor design on classification performance, we simulated image samples at different spatial, spectral, and scale resolutions (by modifying the pixel pitch and the total number of pixels in the sensor array, i.e., the focal plane dimension) of the imaging sensor and assessed the performance of a deep learning-based convolutional neural network (CNN) and a traditional machine learning classifier, support vector machines (SVMs), to classify vegetation species. Overall, across all resolutions and species mixtures, the highest classification accuracy varied widely from 50 to 84%, and the number of genus-level species classes identified ranged from 2 to 17, among 24 classes. Harnessing this simulation approach has provided us valuable insights into sensor configurations and the optimization of data collection methodologies to improve the interpretation of spectral signatures for accurate tree species mapping in forest scenes. Note that we used species classification as a proxy for a host of imaging spectroscopy applications. However, this approach can be extended to other ecological scenarios, such as in evaluating the changing ecosystem composition, detecting invasive species, or observing the effects of climate change on ecosystem diversity.},
+DOI = {10.3390/rs16030498}
+}
+
